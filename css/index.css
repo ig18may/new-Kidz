@@ -68,6 +68,7 @@ ul {
 .topFooter {
     display: grid;
     grid-template-columns: 1fr 1fr 20px 1fr 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
     grid-template-rows: auto auto;
     background-color: #772F74;
 }
