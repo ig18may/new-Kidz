@@ -1,0 +1,156 @@
+body {
+    font-family: 'Adikku Pandai Menari';
+    text-align: center;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+}
+
+ul {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+#nav {
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+#logo > img {
+    display: grid;
+    height: 100px;
+    width: 290px;
+    float: right;
+    margin-right: 20px;
+}
+
+#links {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 40px;
+    font-size: 19px;
+}
+
+#links > a {
+    color: black;
+    font-style: bold;
+    font-weight: 800;
+}
+
+#links .current {
+    color: #2DBDEE;
+}
+
+#links > a:hover {
+    color: #772F74;
+}
+
+
+
+
+
+
+
+.topFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 20px 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    background-color: #772F74;
+}
+
+.whiteLogo, img {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+    width: 500px;
+    height: 160px;
+}
+
+.text {
+    display: grid;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    color: white;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.siteMap {
+    display: grid;
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.map {
+    display: grid;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+}
+
+.space {
+    padding: 10px 0px;
+}
+
+.get {
+    display: grid;
+    grid-column: 5 / 5;
+    grid-row: 1 / 1;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 20;
+}
+
+.inTouch {
+    display: grid;
+    grid-column: 5 / 5;
+    grid-row: 2 / 2;
+}
+
+.inTouch > p, a {
+    color: white;
+}
+
+.bottomFooter {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1 minmax(100px, auto);
+   background-color: black;
+}
+
+.left {
+    display: grid;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    color: white;
+}
+
+.right {
+    display: grid;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    color: white;
+}
+
+.left , .right {
+    padding: 10px 0px;
+}
