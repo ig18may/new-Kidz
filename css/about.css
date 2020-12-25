@@ -94,6 +94,9 @@ td {
     grid-column: 3 / 4;
     grid-row: 1 / 1;
     background-color: #772F74;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 .purpleBlock > h2 {
