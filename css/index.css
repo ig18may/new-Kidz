@@ -425,12 +425,6 @@ input[type=submit] {
     margin-top: 70px;
 }
 
-
-
-
-
-
-
 .topFooter {
     display: grid;
     grid-template-columns: 1fr 1fr 20px 1fr 1fr 1fr;
