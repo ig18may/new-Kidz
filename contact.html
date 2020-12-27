@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://use.fontawesome.com/cd5a54ab72.js"></script>
+    <style>
+        @font-face {
+            font-family: Adikku Pandai Menari;
+            src: url('./Adikku_Pandai_Menari.ttf');
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <div id="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="current" href="contact.html">Contact</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="tel:0645820362">Number: 064 582 0362</a>
+        </div>    
+    </div>
+
+    <div class="bigHeading">
+        <div class="headingText">
+            <h1>Get In Touch</h1>
+        </div>
+    </div>
+
+    <div class="fontawsome">
+
+        <div class="fontawsomeHeading">
+            <h2>How to contact us</h2>
+        </div>
+            
+        <ul class="test1">
+            <li>
+                <i style="color: #FBBD41; font-size: 100px;" class="fa fa-map-marker" aria-hidden="true"></i>
+            </li>
+            <li>
+                <h3 class="subHeading">Address</h3>
+            </li>
+            <li>
+                <a href="https://www.google.com/maps/search/?api=1&query=3+Combrink+Street%2C+Villieria%2C+Pretoria%2C+0186">1145 Combrink Street, Villieria, Pretoria 0186</a>
+            </li>
+        </ul>
+
+        <ul class="test2">
+            <li>
+                <i style="color: #FBBD41; font-size: 100px;"class="fa fa-phone" aria-hidden="true"></i>
+            </li>
+            <li>
+                <h3 class="subHeading">Number</h3>
+            </li>
+            <li>
+                <a href="tel:0645820362">Number : 064 582 0362</a>
+            </li>
+        </ul>
+        
+        <ul class="test3">
+            <li>
+                <i style="color: #FBBD41; font-size: 100px;"class="fa fa-envelope-o" aria-hidden="true"></i>
+            </li>
+            <li>
+                <h3 class="subHeading">Email</h3>
+            </li>
+            <li>
+                <a href="mailto:ssalon@adscampaign.co.za">salon@adscampaign.co.za</a>
+            </li>
+        </ul>
+        
+    </div>
+
+    <div class="mapForm">
+            <div class="mapImg">
+                <img src="images/map.jpeg" alt="Map">
+        </div>
+
+        <div class="form">
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="firstname"
+                placeholder="Your name.." required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lastname"
+                placeholder="Your last name.." required>
+
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" placeholder="Your phone number.." required>
+
+                <label for="email">Email Address</label>
+                <input type="text" name="email" id="email" placeholder="Your email address.." required>
+
+                <label for="kids">How many kids are you booking for?</label>
+                <select name="kids" id="kids">
+                    <option value="">--Please Select--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="preferredappointment">Preferred Appointment (date and time) :</label>
+                <input type="datetime-local" id="preferredappointment" name="preferredappointment" style="float: left;margin-left: 5px;">
+
+                    <br><br><br>
+
+                <label for="subject">Subject</label>
+                <textarea name="subject" id="subject" placeholder="You can use this block for any further instructions or questions.." style="height: 120px; font-size: 14px;"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+    <div class="topFooter">
+        <div class="whiteLogo" >
+            <img src="images/white_logo.png" alt="Logo">
+        </div>
+
+        <div class="text">
+        <p>DoodleKids is based in Wierdapark, Centurion. We are a 
+            specialised hair salon for kids and our services include: 
+            braiding, cutting, plaiting and hair treatments. We also retail
+             some of the top proudly South African kids hair care ranges 
+            and various hair accessories.</p>
+        </div>
+        
+        <div class="siteMap">
+            <h2>Site Map</h2>
+        </div>
+
+        <div class="map">
+            <ul>
+                <li class="space" style="padding-top: 25px;"><a href="index.html">Home</a></li>
+                <li class="space"><a href="about.html">About</a></li>
+                <li class="space"><a href="contact.html">Contact</a></li>
+                <li class="space"><a href="pricing.html">Pricing</a></li>
+                <li class="space"><a href="tel:0645820362">Number: 064 582 0362</a></li>
+            </ul>    
+        </div>
+        
+        <div class="get">
+            <h2>Get In Touch</h2>
+        </div>
+
+        <div class="inTouch">
+            <ul>
+                <li class="space" style="padding-top: 25px;"><a href="tel:0645820362">Contact Number: 064 582 0362 </a></li>
+                <li class="space"><p>Email : salon@adscampaign.co.za</p></li>
+            </ul>    
+        </div>
+    </div>
+
+    <div class="bottomFooter">
+            <div class="left">Content © Copyright 2020. KiddyHair Salon. All rights reserved.</div>
+            <div class="right">Developed by AdsCampaign (Pty) Ltd.</div>
+    </div>
+</body>
+</html>

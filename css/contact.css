@@ -60,115 +60,126 @@ ul {
     color: #FBBD41;
 }
 
-.longContent {
+.bigHeading {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: minmax(400px, auto);
-    padding-top: 60px;
+    grid-template-columns: 1;
+    grid-template-rows: minmax(250px, auto);
+    background-color: #FBBD41;
 }
 
-.superLong {
-    display: grid;
-    grid-column: 1 / 3;
-    grid-row: 1 / 1;
-    align-content: center;
-    justify-content: center;
-}
-
-.superLong > p {
-    font-size: 20px;
-}
-
-.purpleBlock > h2 {
-    font-size: 30px;
-}
-
-.purpleBlock > p {
-    font-size: 18px;
-}
-
-td {
-    padding-top: 6px;
-}
-
-table {
-    font-size: 18px;
-}
-
-.superLong > p {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.purpleBlock {
-    display: grid;
-    grid-column: 3 / 4;
-    grid-row: 1 / 1;
-    background-color: #772F74;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    padding-bottom: 30px;
-}
-
-.purpleBlock > h2 {
-    padding-top: 10px;
-    margin-bottom: 20px;
-}
-
-
-
-.button {
-    display: inline-block;
-    align-self: center;
-    padding: 8px 16px;
-    border: 1px solid #fabc41;
-    border-radius: 8px;
-    background: #fabc41;
-    font-size: 18px;
-    color: white;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
-
-.blueBackground {
-    display: grid;
-    grid-template-columns: 1 / 1;
-    grid-template-rows: minmax(300px, auto);
-    background-color: #2DBDEE;
-}
-
-.blueHappy {
+.headingText {
     display: grid;
     grid-column: 1 / 1;
     grid-row: 1 / 1;
+    background-color: #772F74;
+    margin: auto auto auto auto;
+    align-content: center;
+    height: 50%;
+    width: 50%;
+}
+
+.headingText > h1 {
+    font-size: 35px;
+    color: #FBBD41;
+}
+
+.fontawsome {
+    display: grid;
+    grid-template-columns: 400px 1fr 100px 1fr 100px 1fr 400px;
+    grid-template-rows: 200px minmax(300px, auto);
+}
+
+.fontawsome > ul > * > * {
+    color: black;
+}
+
+.fontawsomeHeading {
+    display: grid;
+    grid-column: 1 / 8;
+    grid-row: 1 / 1;
     justify-content: center;
     align-content: center;
+    font-size: 22px;
 }
 
-.blueHappy > h2 {
-    font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-top: -20px;
+.test1 {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
 }
 
-.blueHappy > ul {
-    padding-top: 20px;
+.test2 {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 2 / 2;
 }
 
-.blueHappy > p {
+.test3 {
+    display: grid;
+    grid-column: 6 / 7;
+    grid-row: 2 / 2;
+}
+
+.subHeading {
+    font-size: 25px;
+}
+
+.fontawsome > ul > li > a {
     font-size: 18px;
 }
 
-.blueHappy > ul > li > a {
-    color: black;
-    font-size: 18px;
+.mapForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(800px, auto);
 }
 
+.mapImg {
+    display: grid;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.mapImg > img {
+    height: auto;
+    width: auto;
+    margin: auto auto;
+}
+
+.form {
+    display: grid;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    width: 70%;
+    margin: auto auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Adikku Pandai Menari';
+}
+
+label {
+    float: left;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Adikku Pandai Menari';
+}
 
 
 
