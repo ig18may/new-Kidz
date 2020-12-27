@@ -60,6 +60,20 @@ ul {
     color: #FBBD41;
 }
 
+.heading {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #772F74;
+}
+
+.head {
+    display: grid;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    background-color: #772F74;
+}
+
 
 
 
