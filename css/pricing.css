@@ -77,6 +77,10 @@ ul {
     margin-top: 20px;
 }
 
+.head > h1 {
+    font-size: 60px;
+}
+
 .coverAll {
     display: grid;
     grid-template-columns: repeat(11, 1fr);

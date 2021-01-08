@@ -27,6 +27,7 @@ ul {
 	position: sticky;
     top: 0;
     background-color: white;
+    z-index: 9999;
 }
 
 #logo > img {
@@ -63,7 +64,7 @@ ul {
 .heroSection {
     display: grid;
     grid-template-columns: repeat(24 ,1fr);
-    grid-template-rows: repeat(8, minmax(100px, auto));
+    grid-template-rows: repeat(7, minmax(100px, auto));
 }
 
 .heroMain {
@@ -403,6 +404,8 @@ input[type=submit] {
     align-content: center;
     justify-content: center;
     padding-top: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .stuffImg > h2 {
