@@ -65,7 +65,7 @@ ul {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     background-color: #772F74;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px 0px 20px 0px;
 }
 
@@ -91,7 +91,7 @@ ul {
 }
 
 .heading1 > h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .Quadrant1 {
@@ -131,11 +131,11 @@ ul {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .img1 {
