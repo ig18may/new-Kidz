@@ -63,10 +63,10 @@ ul {
 .heading {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: minmax(200px, auto);
     background-color: #772F74;
     font-size: 20px;
-    padding: 20px 0px 20px 0px;
+    padding: 30px 0px 20px 0px;
 }
 
 .head {
@@ -74,6 +74,7 @@ ul {
     grid-column: 1 / 1;
     grid-row: 1 / 1;
     color: #FBBD41;
+    margin-top: 20px;
 }
 
 .coverAll {

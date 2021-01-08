@@ -290,7 +290,7 @@ ul {
 .blank {
     display: grid;
     grid-template-columns: 1fr 800px 1fr;
-    grid-template-rows: minmax(300px, auto);
+    grid-template-rows: minmax(400px, auto);
 }
 
 .blankTheSeconde {
