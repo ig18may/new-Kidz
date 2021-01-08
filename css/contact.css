@@ -166,6 +166,14 @@ input[type=text], select, textarea {
     font-family: 'Adikku Pandai Menari';
 }
 
+input[type=datetime-local] {
+    font-family: 'Adikku Pandai Menari';
+}
+
+label[for=preferredappointment] {
+    font-family: 'Adikku Pandai Menari';
+}
+
 label {
     float: left;
 }
@@ -180,12 +188,6 @@ input[type=submit] {
     font-size: 18px;
     font-family: 'Adikku Pandai Menari';
 }
-
-
-
-
-
-
 
 .topFooter {
     display: grid;
