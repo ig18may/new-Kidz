@@ -75,8 +75,20 @@ ul {
     justify-content: center;
 }
 
+.superLong > h2 {
+    color: #FBBD41;
+    font-size: 45px;
+    margin: auto auto;
+}
+
 .superLong > p {
     font-size: 20px;
+}
+
+.purpleBlock {
+    border: 2px solid #772F74;
+    padding: 10px;
+    border-radius: 50px 20px;
 }
 
 .purpleBlock > h2 {
@@ -94,6 +106,7 @@ td {
 table {
     font-size: 18px;
 }
+
 
 .superLong > p {
     width: 85%;
@@ -138,35 +151,39 @@ table {
     display: grid;
     grid-template-columns: 1 / 1;
     grid-template-rows: minmax(300px, auto);
-    background-color: #2DBDEE;
 }
 
 .blueHappy {
     display: grid;
     grid-column: 1 / 1;
     grid-row: 1 / 1;
-    justify-content: center;
+    background-image: url('../images/img5.png');
     align-content: center;
+    justify-content: center;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .blueHappy > h2 {
     font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-top: -20px;
-}
-
-.blueHappy > ul {
-    padding-top: 20px;
 }
 
 .blueHappy > p {
     font-size: 18px;
 }
 
-.blueHappy > ul > li > a {
-    color: black;
-    font-size: 18px;
+.button2 {
+    display: inline-block;
+    align-self: center;
+    padding: 8px 16px;
+    border: 1px solid #FBBD41;
+    border-radius: 8px;
+    background: #772F74;
+    font-size: 22px;
+    color: #FBBD41;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .topFooter {

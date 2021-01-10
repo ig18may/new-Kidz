@@ -64,7 +64,7 @@ ul {
 .heroSection {
     display: grid;
     grid-template-columns: repeat(24 ,1fr);
-    grid-template-rows: repeat(7, minmax(100px, auto));
+    grid-template-rows: repeat(6, minmax(100px, auto));
 }
 
 .heroMain {
@@ -79,8 +79,16 @@ ul {
 
 .content {
     display: grid;
-    grid-column: 5 / 12;
+    grid-column: 4 / 13;
     grid-row: 2 / 3;
+}
+
+.content > h1 {
+    font-size: 55px;
+}
+
+.content > p {
+    font-size: 20px;
 }
 
 .content > h1, p {
@@ -165,7 +173,7 @@ ul {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, minmax(100px, auto));
     background-color: #FBBD41;
-    margin-top: -110px;
+    margin-top: -40px;
     padding-bottom: 20px;
 }
 
@@ -319,7 +327,7 @@ ul {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: minmax(100px, auto);
     background-color: #FBBD41;
-    padding: 10px 0px;
+    
 }
 
 .shuttleImg {
@@ -330,9 +338,8 @@ ul {
 
 .shuttleImg > img {
     height: 100%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    float: left;
 }
 
 .shuttleContent {
