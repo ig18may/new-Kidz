@@ -230,6 +230,7 @@ p {
     align-content: center;
     justify-content: center;
     padding-top: 100px;
+    padding-bottom: 20px;
     background-repeat: no-repeat;
     background-size: 100%;
 }
