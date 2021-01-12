@@ -130,8 +130,6 @@ table {
     margin-bottom: 20px;
 }
 
-
-
 .button {
     display: inline-block;
     align-self: center;
@@ -177,7 +175,7 @@ table {
     display: inline-block;
     align-self: center;
     padding: 8px 16px;
-    border: 1px solid #FBBD41;
+    border: 2px solid #FBBD41;
     border-radius: 8px;
     background: #772F74;
     font-size: 22px;
