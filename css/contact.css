@@ -72,7 +72,7 @@ ul {
     grid-column: 1 / 1;
     grid-row: 1 / 1;
     background-color: #772F74;
-    margin: auto auto auto auto;
+    margin: auto auto;
     align-content: center;
     height: 50%;
     width: 50%;

@@ -61,6 +61,20 @@ ul {
     color: #FBBD41;
 }
 
+/* .Quadrant1 {
+    display: grid;
+    grid-area: q1;
+    background-color: #2DBDEE;
+    color: white;
+    align-self: center;
+    justify-self: center;
+    z-index: 900;
+    height: 80%;
+    width: 80%;
+    min-width: 300px;
+    border-radius: 10px;
+} */
+
 .heading {
     display: grid;
     grid-template-columns: 1fr;
